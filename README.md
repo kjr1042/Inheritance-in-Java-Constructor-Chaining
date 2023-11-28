@@ -9,6 +9,7 @@ These examples cover essential concepts and best practices related to inheritanc
 - **Description**: The mechanism by which a class inherits properties and behaviors from another class.
 - **Types**:
   - Single Inheritance: A class inherits from only one superclass.
+    
     **Example**:
     ```java
     class Parent {
@@ -22,6 +23,7 @@ These examples cover essential concepts and best practices related to inheritanc
   
   - Multilevel inheritance: This allows a derived class to inherit from a base class, which itself is derived from another base class.
     It allows for more reuse of code and behavior through the class hierarchy.
+    
      **Example**:
     ```java
      class Grandparent {
@@ -38,6 +40,7 @@ These examples cover essential concepts and best practices related to inheritanc
 
     
   - Multiple Inheritance: A class inherits from more than one superclass (Java supports multiple inheritance through interfaces).
+ 
     **Example**:
     ```java
     interface Interface1 {
@@ -54,6 +57,7 @@ These examples cover essential concepts and best practices related to inheritanc
 
     
   - Hierarchical Inheritance: Multiple classes inherit from a single superclass.
+ 
     **Example**:
     ```java
     class Animal {
@@ -85,4 +89,3 @@ Constructor chaining allows for flexibility and reusability in code by providing
           // Additional constructor logic
       }
   }
-
